@@ -18,8 +18,8 @@ function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/shop">
-          <a class="nav-link active" aria-current="page" href="/">Shop</a>
+          <Link to="/projects">
+          <a class="nav-link active" aria-current="page" href="/">Projects</a>
           </Link>
         </li>
       </ul>
