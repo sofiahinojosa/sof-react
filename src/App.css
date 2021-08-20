@@ -49,3 +49,12 @@ h3 {
   margin-top: 35px;
   font-family: "Times New Roman", Times, serif;
 }
+
+.img {
+  text-align: center;
+}
+
+.the-img {
+  height: 400px;
+  width: auto;
+}

@@ -28,6 +28,9 @@ function App() {
 const Home = () => (
   <div>
     <h3>Home page</h3>
+    <div className="img">
+    <img src="https://source.unsplash.com/random?nature" alt="a" className="the-img" />
+    </div>
   </div>
 )
 
