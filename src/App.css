@@ -1,3 +1,9 @@
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Allura", cursive;
+}
+
 .compliment {
   text-align: center;
   margin-top: 30%;

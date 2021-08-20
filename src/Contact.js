@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-function Projects() {
+function Contact() {
   return (
     <div>
-      <h3>My projects page</h3>
+      <h3>My contact page</h3>
     </div>
   );
 }
 
-export default Projects;
+export default Contact;

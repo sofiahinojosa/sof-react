@@ -1,10 +1,46 @@
-import './App.css';
+//import './App.css';
 import { Link } from 'react-router-dom';
+import './Nav.css';
 
 function Nav() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <nav>
+      <ul>
+        <li>
+          <a href="/">home</a>
+        </li>
+        <li>
+          <Link to="/about">
+          <a href="/">about me</a>
+          </Link>
+        </li>
+        <li>
+          <Link to="/projects">
+          <a href="/">projects</a>
+          </Link>
+        </li>
+        <li>
+          <Link to="/certificates">
+          <a href="/">certificates</a>
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact">
+          <a href="/">contact</a>
+          </Link>
+        </li>
+      </ul>
+      </nav>
+    </div>
+  );
+}
+
+
+
+/* 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,8 +62,6 @@ function Nav() {
     </div>
   </div>
 </nav>
-    </div>
-  );
-}
+*/
 
 export default Nav;

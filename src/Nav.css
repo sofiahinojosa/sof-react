@@ -1,0 +1,33 @@
+.star_left {
+  position: fixed;
+  height: 200px;
+  width: auto;
+  left: 15px;
+}
+
+.star_right {
+  position: fixed;
+  height: 200px;
+  width: auto;
+  right: 15px;
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+}
