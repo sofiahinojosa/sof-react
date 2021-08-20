@@ -6,29 +6,31 @@ function Nav() {
   return (
     <div>
 
+     <h1 className="margin">Sofia Hinojosa</h1>
+
       <nav>
       <ul>
         <li>
-          <a href="/">home</a>
+          <a className="aoc" href="/">home</a>
         </li>
         <li>
-          <Link to="/about">
-          <a href="/">about me</a>
+          <Link to="/about" className="aoc">
+          <a className="aoc" href="/">about me</a>
           </Link>
         </li>
         <li>
-          <Link to="/projects">
-          <a href="/">projects</a>
+          <Link to="/projects" className="aoc">
+          <a className="aoc" href="/">projects</a>
           </Link>
         </li>
         <li>
-          <Link to="/certificates">
-          <a href="/">certificates</a>
+          <Link to="/certificates" className="aoc">
+          <a className="aoc" href="/">certificates</a>
           </Link>
         </li>
         <li>
-          <Link to="/contact">
-          <a href="/">contact</a>
+          <Link to="/contact" className="aoc" >
+          <a className="aoc" href="/">contact</a>
           </Link>
         </li>
       </ul>
