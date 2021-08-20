@@ -4,7 +4,7 @@ import './Nav.css';
 
 function Nav() {
   return (
-    <div>
+    <div className="a">
 
      <h1 className="margin">Sofia Hinojosa</h1>
 

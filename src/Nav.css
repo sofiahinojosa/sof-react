@@ -35,8 +35,13 @@ li {
 
 nav {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .margin {
   margin-top: 10px;
+}
+
+.a h1 {
+  margin-bottom: 30px;
 }
