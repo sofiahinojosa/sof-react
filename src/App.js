@@ -10,8 +10,7 @@ function App() {
   return (
     <Router> 
     <div className="App">
-      <img className="star_left" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/546/original/Screen_Shot_2021-08-19_at_22.18.49-removebg-preview.png?1629429665" alt="a" />
-      <img className="star_right"src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/547/original/a.png?1629429855" alt="a" />
+      
         <Nav />
         <Switch>
         <Route path="/" exact component={Home} />
@@ -37,3 +36,6 @@ export default App;
 
 /* <div class="parallax"><span className="div">Home page</span></div> */
 // <img src="https://source.unsplash.com/random?nature" alt="a" className="the-img" />
+
+//<img className="star_left" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/546/original/Screen_Shot_2021-08-19_at_22.18.49-removebg-preview.png?1629429665" alt="a" />
+//<img className="star_right"src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/547/original/a.png?1629429855" alt="a" />

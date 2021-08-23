@@ -1,22 +1,8 @@
-.star_left {
-  position: fixed;
-  height: 200px;
-  width: auto;
-  left: 15px;
-}
-
-.star_right {
-  position: fixed;
-  height: 200px;
-  width: auto;
-  right: 15px;
-}
-
-ul {
+.a ul {
   overflow: hidden;
 }
 
-li {
+.a li {
   display: inline;
   list-style: none;
   margin-right: 20px;

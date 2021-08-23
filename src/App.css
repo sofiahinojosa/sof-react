@@ -1,10 +1,41 @@
 * {
   text-align: center;
+  font-family: "Work Sans", sans-serif;
 }
 
 .Home h3 {
   margin-bottom: 0;
 }
+
+li {
+  display: inline;
+  list-style: none;
+  margin-right: 30px;
+}
+
+/*
+.star_left {
+  position: fixed;
+  height: 200px;
+  width: auto;
+  left: 15px;
+}
+
+.star_right {
+  position: fixed;
+  height: 200px;
+  width: auto;
+  right: 15px;
+}
+
+@media screen and (min-width: 1000px) {
+  .star_left,
+  .star_right {
+    width: 100px;
+    height: auto;
+  }
+}
+*/
 
 /* 
 .img {
@@ -35,4 +66,4 @@
   height: 700px;
   line-height: 700px;
 }
-*/
+*/ ;
