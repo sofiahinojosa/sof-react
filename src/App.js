@@ -2,9 +2,10 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
-import Certificates from './Certificates';
 import Contact from './Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/certificates" component={Certificates} />
         <Route path="/contact" component={Contact} />
         </Switch>
     </div>

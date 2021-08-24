@@ -1,1 +1,14 @@
+.Projects a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
 
+.Projects a:hover {
+  color: gray;
+  opacity: 0.8;
+}
+
+.Projects .card {
+  margin: 10px 10px 10px 10px;
+}
