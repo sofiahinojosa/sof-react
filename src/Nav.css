@@ -10,13 +10,13 @@
 }
 
 .aoc {
-  color: black;
+  color: gray;
   text-decoration: none;
   transition: 0.5s;
 }
 
 .aoc:hover {
-  color: gray;
+  color: #ccc;
 }
 
 nav {

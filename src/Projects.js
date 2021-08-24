@@ -19,8 +19,8 @@ function Projects() {
   </div>
     </a>
 </div>
-
     </div>
+
     <div class="col">
        <div class="card">
          <a href="https://www.shecodes.io/workshops/shecodes-react-74a9cce7-6cb0-4b1e-935d-cab02bdf86c6/projects/396462" target="_blank" rel="noreferrer">
@@ -32,6 +32,10 @@ function Projects() {
   </a>
 </div>
     </div>
+      </div>
+
+      <div class="row">
+
     <div class="col">
       <div class="card">
         <a href="https://shecodes.io/workshops/shecodes-plus-54-0/projects/326341" target="_blank" rel="noreferrer">
