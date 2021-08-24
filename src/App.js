@@ -1,16 +1,30 @@
+import React, { useState } from "react";
 import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import {ThemeProvider} from 'styled-components';
+import { GlobalStyles } from './GlobalStyles';
+import { lightTheme, darkTheme } from './Theme'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+  const [theme, setTheme] = useState('light');
+  const themeToggler = () => {
+    theme === 'light' ? setTheme('dark') : setTheme('light')
+}
   return (
     <Router> 
     <div className="App">
+      <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <>
+      <GlobalStyles/>
+       <button type="button" class="btn btn-primary" onClick={themeToggler}>☀</button>
+
+    
       
         <Nav />
         <Switch>
@@ -19,6 +33,8 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
         </Switch>
+        </>
+    </ThemeProvider>
     </div>
     </Router>
   );
