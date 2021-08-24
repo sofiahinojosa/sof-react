@@ -3,7 +3,6 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
-import Contact from './Contact';
 import {ThemeProvider} from 'styled-components';
 import { GlobalStyles } from './GlobalStyles';
 import { lightTheme, darkTheme } from './Theme'
@@ -31,7 +30,6 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
         </Switch>
         </>
     </ThemeProvider>

@@ -31,3 +31,10 @@ nav {
 .a h1 {
   margin-bottom: 30px;
 }
+
+@media (max-width: 400px) {
+  .a li {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

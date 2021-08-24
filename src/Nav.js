@@ -20,12 +20,7 @@ function Nav() {
         </li>
         <li>
           <Link to="/projects" className="aoc">
-          <a className="aoc" href="/">projects and certificates</a>
-          </Link>
-        </li>
-        <li>
-          <Link to="/contact" className="aoc" >
-          <a className="aoc" href="/">contact</a>
+          <a className="aoc" href="/">projects & certificates</a>
           </Link>
         </li>
       </ul>
