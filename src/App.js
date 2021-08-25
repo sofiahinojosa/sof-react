@@ -40,8 +40,8 @@ function App() {
 
 const Home = () => (
   <div className="Home">
-    <h3>Hello there :D</h3>
-    <small>Welcome to my website :0</small>
+    <h3>Hello there 👋</h3>
+    <small>Welcome to my website ☺️</small>
 
   </div>
 )
