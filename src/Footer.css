@@ -1,0 +1,10 @@
+.Footer a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.Footer a:hover {
+  color: gray;
+  opacity: 0.8;
+}

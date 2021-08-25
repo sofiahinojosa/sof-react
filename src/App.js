@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
+import Footer from './Footer';
 import {ThemeProvider} from 'styled-components';
 import { GlobalStyles } from './GlobalStyles';
 import { lightTheme, darkTheme } from './Theme'
@@ -43,6 +44,7 @@ const Home = () => (
     <h3>Hello there 👋</h3>
     <small>Welcome to my website ☺️</small>
 
+    <Footer />
   </div>
 )
 
