@@ -40,7 +40,7 @@
   margin-bottom: 0;
 }
 
-li {
+.App li {
   display: inline;
   list-style: none;
   margin-right: 30px;
