@@ -16,7 +16,7 @@ function Projects() {
   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/862/original/Screen_Shot_2021-08-24_at_9.52.48.png?1629816861" class="card-img-top" alt="okok" />
   <div class="card-body">
     <h5 class="card-title">Calculator App ➗</h5>
-    <p class="card-text">A simple calculator</p>
+    <p class="card-text">A simple calculator app made with js</p>
   </div>
     </a>
 </div>
