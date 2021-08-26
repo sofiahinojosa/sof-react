@@ -7,7 +7,7 @@ import { faInstagram, faGithub, faTwitter } from '@fortawesome/free-brands-svg-i
 export default function Footer() {
   return(
     <div className="Footer">
-      <h5>Contact me</h5>
+      <h5>Contact me 🌱</h5>
       <ul>
         <li>
           <a href="https://www.instagram.com/sofiahinojosadl_/" target="_blank" rel="noreferrer">
