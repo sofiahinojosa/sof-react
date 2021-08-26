@@ -6,7 +6,7 @@ function Nav() {
   return (
     <div className="a">
 
-     <h1 className="margin">Sofia Hinojosa</h1>
+     <h1 className="margin">✰ Sofia Hinojosa ✰</h1>
 
       <nav>
       <ul>
