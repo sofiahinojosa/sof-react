@@ -1,3 +1,8 @@
+.Footer {
+  width: 100%;
+  margin-top: 50px;
+}
+
 .Footer a {
   text-decoration: none;
   color: black;
