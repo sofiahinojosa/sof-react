@@ -52,6 +52,12 @@ li {
   right: 15px;
   z-index: 10;
 }
+
+.App .mi_cara_lol {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
 /*
 .star_left {
   position: fixed;

@@ -43,9 +43,10 @@ function App() {
 
 const Home = () => (
   <div className="Home">
-    <h3>Hello there 👋</h3>
+    <h3 id="h3">Hello there 👋</h3>
+    <img class="mi_cara_lol" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/007/original/5CE168AF-FA85-40F6-9F26-E5E7EAAEED1F.jpg?1629987114" alt="pictureOfMeLol" />
+    <br />
     <small>Welcome to my website ☺️</small>
-
     <Footer />
   </div>
 )
