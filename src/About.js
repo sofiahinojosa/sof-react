@@ -11,7 +11,7 @@ function About() {
         My coding journey started in quarantine about a year ago with HTML, Css, and JavaScript. 
         Currently, I am learning Angular. 
         I like working with React too :D 
-        On my free time I like to sail, listen to music, make diys, read and code.
+        On my free time I like to sail, listen to music, make diys, play piano, read and code.
         </p>
 
       <h3>My skills ⚡️</h3>
@@ -56,9 +56,3 @@ function About() {
 }
 
 export default About;
-
-/* <div className="about_img">
-    <img src="https://source.unsplash.com/random?nature" alt="a" className="the-img" />
-    <h3>About me</h3>
-    <p>Lorem Ipsum dolor lol</p>
-    </div> */
