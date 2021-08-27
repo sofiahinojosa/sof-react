@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return(
@@ -22,6 +23,11 @@ export default function Footer() {
         <li>
           <a href="https://twitter.com/sofiahinojosadl" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:sofiahinojosadl@gmail.com" target="_blank" rel="noreferrer"> 
+          <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </li>
       </ul>
