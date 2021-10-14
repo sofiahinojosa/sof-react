@@ -11,7 +11,7 @@ export default function Footer() {
       <h5>Contact me 🌱</h5>
       <ul>
         <li>
-          <a href="https://www.instagram.com/sofiahinojosadl_/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/sofiaahinojosadl" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
