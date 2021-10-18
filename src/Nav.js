@@ -14,12 +14,12 @@ function Nav() {
           <a className="aoc" href="/">home</a>
         </li>
         <li>
-          <Link to="/about" className="aoc">
+          <Link to="/idk" className="aoc">
           <a className="aoc" href="/">about me</a>
           </Link>
         </li>
         <li>
-          <Link to="/projects" className="aoc">
+          <Link to="/idk2" className="aoc">
           <a className="aoc" href="/">projects & certificates</a>
           </Link>
         </li>

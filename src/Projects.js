@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import './Projects.css';
-import Footer from './Footer';
 
 function Projects() {
   return (
@@ -100,7 +99,6 @@ function Projects() {
     </div>
   </div>
 </div>
-<Footer />
     </div>
   );
 }

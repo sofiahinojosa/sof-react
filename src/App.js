@@ -4,6 +4,8 @@ import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
 import Footer from './Footer';
+import Idk from "./Idk";
+import Idk2 from "./Idk2"
 import {ThemeProvider} from 'styled-components';
 import { GlobalStyles } from './GlobalStyles';
 import { lightTheme, darkTheme } from './Theme'
@@ -29,8 +31,8 @@ function App() {
         <Nav />
         <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/idk" component={Idk} />
+        <Route path="/idk2" component={Idk2} />
         </Switch>
         </>
     </ThemeProvider>
@@ -45,6 +47,9 @@ const Home = () => (
     <img class="mi_cara_lol" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/007/original/5CE168AF-FA85-40F6-9F26-E5E7EAAEED1F.jpg?1629987114" alt="pictureOfMeLol" />
     <br />
     <small>Welcome to my website ☺️</small>
+    <br /> <br />
+    <About />
+    <Projects />
     <Footer />
   </div>
 )
