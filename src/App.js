@@ -1,9 +1,10 @@
 import React from "react";
+import "./App.css";
 
 export default function App() {
   return(
-    <div>
-      <h1>hai</h1>
+    <div className="App">
+      <h1>hey there :)</h1>
     </div>
   )
 }
